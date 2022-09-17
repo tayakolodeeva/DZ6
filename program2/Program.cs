@@ -10,7 +10,7 @@ double b2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите число k2");
 double k2 = Convert.ToInt32(Console.ReadLine());
 
-IntersectionOfStraightLines(b1, b2, k1, k2);
+IntersectionOfStraightLines(b1, b2, k1, k2); // Нахождение точки пересечения двух прямых
 
 void IntersectionOfStraightLines(double b1, double b2, double k1, double k2)
 {
@@ -29,7 +29,7 @@ void IntersectionOfStraightLines(double b1, double b2, double k1, double k2)
         x=(b2-b1)/(k1-k2);
         y=(k1*(b2-b1))/(k1-k2)+b1;
         
-        Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
+        Console.WriteLine($"Заданные прямые пересекутся в точке с координатами X: {x}, Y: {y}");
     }
 }
 
